@@ -95,7 +95,7 @@ Drupal admin: `admin` / `admin`
 To add the AI task manager (optional):
 
 ```bash
-ddev add-on get AmazeeLabs/ddev-dalia
+ddev add-on get e0ipso/ddev-dalia
 ddev restart
 ddev ssh
 claude  # authenticate Claude Code
