@@ -1,6 +1,6 @@
 # Decoupled Drupal + Next.js (Dalia Experiment)
 
-A decoupled Drupal 11 site with a Next.js 16 frontend, bootstrapped entirely by [Dalia](https://github.com/AmazeeLabs/ddev-dalia) — an AI-powered task manager that runs inside DDEV and uses Claude Code to implement changes.
+A decoupled Drupal 11 site with a Next.js 16 frontend, bootstrapped entirely by [Dalia](https://dalia-drupal.com/) — an AI-powered task manager that runs inside DDEV and uses Claude Code to implement changes.
 
 This repo documents the experiment and the manual fixes required after Dalia's initial scaffold.
 
