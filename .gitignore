@@ -1,0 +1,63 @@
+# Dependencies (managed by Composer / npm)
+/vendor/
+/node_modules/
+/frontend/node_modules/
+/frontend/.next/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/libraries/
+
+# Drupal generated files
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/simpletest/
+
+# Dalia / DDEV addons (install via `ddev add-on get`)
+/.ddev/dalia/
+/.ddev/commands/web/dalia-*
+/.ddev/config.dalia.yaml
+/.ddev/config.assistant-claude.yaml
+/.ddev/config.playwright-cli.yaml
+/.ddev/docker-compose.assistant-claude.yaml
+/.ddev/scripts/dalia-*
+/.ddev/addon-metadata/ddev-dalia/
+/.ddev/addon-metadata/assistant-claude/
+/.ddev/addon-metadata/playwright-cli/
+/.ddev/commands/host/install-playwright-cli
+/.ddev/playwright-cli/
+/.ddev/web-build/Dockerfile.assistant-claude
+/.ddev/web-build/disabled.Dockerfile.playwright-cli
+/.dalia/
+/test/playwright/dalia-spec-helpers.ts
+
+# AI task manager
+/.ai/
+
+# DDEV generated (recreated on ddev start)
+/.ddev/db_snapshots/
+/.ddev/db-build/
+/.ddev/mutagen/
+/.ddev/traefik/
+/.ddev/.ddev-docker-compose-*
+/.ddev/.homeadditions/
+/.ddev/.webimageBuild/
+/.ddev/.sshimageBuild/
+/.ddev/xhprof/
+/.ddev/sequelpro.spf
+/.ddev/.gitignore
+
+# Claude Code workspace
+/.claude/
+
+# OS / Editor
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

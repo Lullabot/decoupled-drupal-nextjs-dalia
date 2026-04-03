@@ -1,0 +1,4 @@
+
+# This file is optionally copied to enable playwright-cli from
+# disabled.Dockerfile.playwright-cli.
+Dockerfile.playwright-cli
